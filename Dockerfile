@@ -1,6 +1,6 @@
 # Copied from https://github.com/prometheus/client_golang/blob/master/examples/simple/Dockerfile
 
-FROM resin/raspberry-pi-golang-alpine:1.9.2 AS builder
+FROM resin/raspberry-pi-alpine-golang:1.9.2 AS builder
 
 RUN [ "cross-build-start" ]
 WORKDIR /go/src/github.com/infrastructure-as-code/docker-hello-world
